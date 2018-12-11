@@ -80,7 +80,7 @@ img {
 #coverpage {
   margin:0;
   padding:8rem;
-  background: url("/Users/Claudia/Documents/AAAUF_FALL_18/JOU3363_WebApps/1FINALPROJ/images/prflag2.jpg") no-repeat;
+  background: url("../images/prflag2.jpg") no-repeat;
   background-size: 100%;
 }
 
