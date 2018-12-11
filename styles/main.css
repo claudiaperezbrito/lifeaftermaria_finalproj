@@ -1,0 +1,626 @@
+/* css begins below */
+
+body {
+  background: #000;
+  font-family: 'Georgia','Palatino', serif;
+  margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #D3D3D3;
+    margin: 0;
+}
+
+h1 {
+    padding-left:2rem;
+    color:#D3D3D3;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Trebuchet MS' , sans-serif;
+}
+
+p {
+  color:#fff;
+}
+
+h2 {
+  margin: auto;
+  max-width: 800px;
+  font-size: 4rem;
+  color:#fff;
+  font-family: 'Trebuchet MS' , sans-serif;
+  text-align: left;
+}
+/*h3 refers to 2 sections on page Power section */
+h3 {
+  color:#fff;
+  font-size:1.5rem;
+  text-align: center;
+}
+/*titles are div of 3 sections of the entire pg (people, animals, power) */
+.titles{
+  padding:3rem;
+  margin: 0;
+}
+
+img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.hiddentext {
+  background: #000;
+  opacity: 0.8;
+  font-size:1.75rem;
+  line-height:3rem;
+  padding:.5rem;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  margin: auto;
+  max-width:800px;
+}
+#introsent {
+  text-align: center;
+  font-size:1.75rem;
+}
+.introex {
+  display: flex;
+  justify-content: center;
+  max-width: 800px
+}
+
+.introex p{
+  font-size: 1.75rem;
+  line-height: 1.9rem;
+}
+
+#coverpage {
+  margin:0;
+  padding:8rem;
+  background: url("/Users/Claudia/Documents/AAAUF_FALL_18/JOU3363_WebApps/1FINALPROJ/images/prflag2.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.sectioncontainers {
+  margin: auto;
+  max-width:800px;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.picandstory {
+  opacity: 0.8;
+  object-fit: scale-down;
+}
+.picandstory p{
+  font-size: 1.6rem;
+}
+
+.picandstory img {
+  max-width: 100%;
+}
+
+#peoplechoice{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.peoplequote {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/*map 1 things*/
+#map1 {
+  height: 600px;
+  margin: auto;
+  width:800px;
+}
+#map1explain {
+  margin:auto;
+  font-size:1.75rem;
+}
+#map1container {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  justify-content:center;
+}
+/*map 2 things*/
+#map2 {
+  height: 600px;
+  margin: auto;
+  width: 800px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#map2container {
+  padding: 1rem;
+  justify-content: center;
+}
+#map2explain{
+  margin:auto;
+  font-size: 1.5rem;
+}
+
+#animalslideshow img{
+  max-width:100%;
+}
+
+#animalsheader {
+  background: #00004c;
+}
+#genteheader {
+  background: #4c0000;
+}
+
+#powerheader {
+  background: #042d04;
+}
+
+#powercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 2rem;
+  justify-content: space-between;
+}
+#powerintro {
+  margin: auto;
+  max-width:800px;
+  padding-top: 3rem;
+}
+#govchoice{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.poderex {
+  color:#fff;
+  font-size: 1.25rem;
+  max-width:400px;
+  text-align: left;
+  line-height: 1.5rem;
+  display: flex;
+  margin: auto;
+}
+.powersect {
+  max-width:350px;
+}
+.powersect img{
+  display: flex;
+  flex:1 1 0;
+}
+
+footer {
+    padding: 1.3rem;
+    background-color: #333333;
+    margin: 0;
+  }
+
+footer p{
+  margin:auto;
+  max-width:655px;
+  font-size: 1.45rem;
+  line-height: 1.25em;
+}
+
+/*pseudo links and their colors*/
+a {
+    color: #fff;
+    text-decoration:underline;
+}
+a:hover {
+    color: #A1D1F7;
+}
+
+/*media query 1*/
+@media screen and (max-width:1190px){
+
+  h1 {
+      font-size: 3rem;
+    }
+  #introsent {
+      font-size:1.6rem;
+    }
+  .hiddentext {
+    font-size:1.6rem;
+    line-height:3rem;
+  }
+
+}
+/*media query 2 */
+
+@media screen and (max-width:1160px){
+
+h1 {
+    font-size: 2rem;
+  }
+
+#introsent {
+    font-size:1.4rem;
+    }
+
+.hiddentext {
+    font-size:1.6rem;
+    }
+}
+/*media query3*/
+
+@media screen and (max-width:1120px){
+
+h1 {
+    font-size: 1.8rem;
+    }
+
+#introsent {
+    font-size:1.2rem;
+      }
+
+.hiddentext {
+    font-size:1.5rem;
+      }
+}
+
+/*media query4*/
+
+@media screen and (max-width:1060px){
+
+#introsent {
+    font-size:1.1rem;
+      }
+
+.hiddentext {
+    font-size:1.3rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    line-height: 2.5rem;
+      }
+}
+
+/*media query5*/
+
+@media screen and (max-width:1000px){
+
+#introsent {
+    font-size:1rem;
+      }
+
+.hiddentext {
+    font-size:1.3rem;
+    padding-top:1.75rem;
+    padding-bottom:1.75rem;
+    line-height: 2.3rem;
+      }
+}
+
+/*media query6*/
+
+@media screen and (max-width:950px){
+
+.hiddentext {
+    font-size:1.2rem;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    line-height: 2.3rem;
+      }
+}
+
+/*media query7*/
+
+@media screen and (max-width:900px){
+
+  #introsent {
+    font-size:.9rem;
+  }
+.hiddentext {
+    font-size:1.2rem;
+    padding-top:1.3rem;
+    padding-bottom:1.3rem;
+    line-height: 2.1rem;
+  }
+  #map1 {
+    height: 400px;
+    width: 100%;
+  }
+  #map1explain {
+    font-size:1.25rem;
+  }
+
+  #map2 {
+    height: 400px;
+    width: 100%;
+  }
+  #map2explain {
+    font-size:1.25rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  .titles{
+    padding:2.5rem;
+    margin: 0;
+  }
+  .sectioncontainers {
+    margin:3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  #powerintro {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: auto;
+}
+}
+/*media query8*/
+
+@media screen and (max-width:864px){
+
+.hiddentext {
+    font-size:1.1rem;
+    line-height: 2rem;
+      }
+  #powercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+      }
+
+}
+
+/*media query9*/
+
+@media screen and (max-width:820px){
+
+.hiddentext {
+    font-size:1rem;
+    padding-top:1.1rem;
+    padding-bottom:1.1rem;
+    line-height: 1.8rem;
+      }
+  #coverpage {
+    padding: 7rem;
+  }
+}
+
+/*media query10*/
+
+@media screen and (max-width:790px){
+
+#introsent {
+    font-size:.8rem;
+  }
+.hiddentext {
+    font-size:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    line-height: 1.7rem;
+      }
+  #coverpage {
+    padding: 7rem;
+  }
+  .picandstory p {
+    font-size: 1.4rem;
+  }
+  .introex p{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .powersect p{
+    font-size: 1rem;
+  }
+  #peoplechoice{
+    font-size: 1.25rem;
+  }
+  #govchoice {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  footer p{
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/*media query11*/
+
+@media screen and (max-width:720px){
+
+  #introsent {
+    font-size:.8rem;
+  }
+  .hiddentext {
+    font-size:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    line-height: 1.7rem;
+  }
+
+  #map1explain {
+    margin-top:2rem;
+  }
+
+  #map2explain {
+    font-size:1.1rem;
+  }
+
+  #coverpage {
+    padding: 4rem;
+  }
+  .titles{
+    padding:2.5rem;
+    margin: 0;
+  }
+  .sectioncontainers {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  .picandstory {
+    font-size: 1.5rem;
+  }
+  .introex {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+}
+/*media query12*/
+
+@media screen and (max-width:650px){
+  #introsent {
+    font-size:.8rem;
+  }
+  .hiddentext {
+    font-size:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    line-height: 1.5rem;
+  }
+  #coverpage {
+    padding: 2rem;
+  }
+  .sectioncontainers {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: .5rem;
+  }
+}
+/*media query13*/
+
+@media screen and (max-width:580px){
+  #introsent {
+    font-size:.7rem;
+  }
+  .hiddentext {
+    font-size:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    line-height: 1.5rem;
+  }
+  #coverpage {
+    padding: 1.75rem;
+  }
+  .picandstory p {
+    font-size: 1.25rem;
+  }
+  .introex p{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+}
+
+/*media query14*/
+
+@media screen and (max-width:540px){
+  #introsent {
+    font-size:.7rem;
+  }
+  .hiddentext {
+    font-size:.85rem;
+    padding-top:.75rem;
+    padding-bottom:.75rem;
+    line-height: 1rem;
+  }
+  #coverpage {
+    padding: 1.5rem;
+  }
+
+  #map1explain {
+    font-size:1.1rem;
+    margin-top:2rem;
+  }
+  #map2explain {
+    font-size:1.1rem;
+  }
+  .picandstory p {
+    font-size: .65rem;
+  }
+  .introex p {
+    font-size: 1.15rem;
+    line-height: 1.2rem;
+  }
+
+  .poderex p {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    margin: auto;
+  }
+  #peoplechoice {
+      font-size: 1rem;
+  }
+  #govchoice {
+    font-size: 1rem;
+  }
+  footer p{
+    font-size: 1rem;
+    line-height: 1.25em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size:2rem;
+    text-align: center;
+  }
+  .picandstory p {
+    font-size: .75rem;
+  }
+  #peoplechoice{
+    font-size: .75rem;
+  }
+  #govchoice {
+    font-size: .75rem;
+  }
+  .introex p {
+    font-size: 1rem;
+  }
+  .peoplequote {
+    font-size: .75rem;
+  }
+  #map1explain{
+    font-size:.75rem;
+}
+  #map2explain {
+    font-size: .75rem;
+  }
+  #map1container{
+    margin-top:0;
+  }
+  .titles {
+    padding: 1.5rem;
+  }
+}
+/*media query15*/
+
+@media screen and (max-width:500px){
+#introsent {
+  font-size:.5rem;
+}
+.hiddentext {
+  font-size:.65rem;
+  padding-top:.7rem;
+  padding-bottom:.7rem;
+  line-height: 1rem;
+}
+#coverpage {
+  padding: 1.35rem;
+}
+}
